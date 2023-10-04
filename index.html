@@ -16,11 +16,11 @@
                     <p>Welcome on board, if you would love to attend the conference kindly fill the form below. Thank you!</p>
                 </div>
                 <form id="form">
-                    <input type="text" placeholder="Full name" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="tel" placeholder="Phone" required>
-                    <input type="text" placeholder="State" required>
-                    <input type="text" placeholder="Country" required>
+                    <input type="text" name="name" placeholder="Full name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="tel" name="phone" placeholder="Phone" required>
+                    <input type="text" name="state" placeholder="State" required>
+                    <input type="text" name="country" placeholder="Country" required>
                     <div class="gender-container">
                         <label for="gender">Gender:</label> <br>
                         <label for="male">Male</label>
@@ -30,14 +30,14 @@
                         
                         </div> 
                     <div class="gender-container">
-                        <label for="connection">How will you love to connect with us?:</label> <br>
+                        <label for="connection">How will you love to connect with us?:</label> <br>8
                         <label for="On-site">On-site</label>
                         <input type="radio" id="On-site" name="connection" value="On-site">
                         <label for="Online">Online</label>
                         <input type="radio" id="Online" name="connection" value="Online">
                         </div>
-                    <textarea placeholder="What are your expetations for the conference?" rows="5" required></textarea>
-                    <textarea placeholder="What are your prayer points?" rows="5" required></textarea>
+                    <textarea name="text" placeholder="What are your expetations for the conference?" rows="5" required></textarea>
+                    <textarea name="text" placeholder="What are your prayer points?" rows="5" required></textarea>
                     <button type="submit">Submit</button>
                 </form>
 
