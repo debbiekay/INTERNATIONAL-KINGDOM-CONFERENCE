@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Pacifico', cursive;
+    font-family: cursive;
     src: url('https://fonts.googleapis.com/css?family=Pacifico');
 }
 
@@ -143,5 +143,16 @@
         
             #logo {
                 width: 80px; /* Adjust the width for smaller screens */
+            }
+
+            #side-image {
+                max-width: 80%;
+                max-height: 80%;
+                border-radius: 15px;
+            }
+
+            .support{
+                width: 75%;
+                margin-bottom: 20px;
             }
         }
